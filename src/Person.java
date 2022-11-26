@@ -1,14 +1,14 @@
 public class Person {
     private int id;
     private String name;
-    private String contact;
+    private String email;
     private String department;
     private String[] schedule;
 
-    public Person(int id, String name, String contact, String department, String[] schedule) {
+    public Person(int id, String name, String email, String department, String[] schedule) {
         this.id = id;
         this.name = name;
-        this.contact = contact;
+        this.email = email;
         this.department = department;
         this.schedule = schedule;
     }
@@ -29,12 +29,12 @@ public class Person {
         this.name = name;
     }
 
-    public String getContact() {
-        return contact;
+    public String getEmail() {
+        return email;
     }
 
-    public void setContact(String contact) {
-        this.contact = contact;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getDepartment() {

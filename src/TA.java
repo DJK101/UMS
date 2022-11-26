@@ -16,7 +16,7 @@ public class TA extends Person {
         }
         return "Teachers Assistant ID: " + getId() + System.lineSeparator() +
                 "Teachers Assistant Name: " + getName() + System.lineSeparator() +
-                "Contact Info: " + getContact() + System.lineSeparator() +
+                "Contact Info: " + getEmail() + System.lineSeparator() +
                 "Department: " + getDepartment() + System.lineSeparator() +
                 "Enrolled As: " + this.enrolledAs + System.lineSeparator() +
                 "Office Hours: " + System.lineSeparator() + str.toString();
