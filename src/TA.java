@@ -2,15 +2,14 @@ public class TA extends Person {
     private String enrolledAs;
     private String[] officeHours;
 
-    public TA(int id, String name, String contact, String department, String enrolledAs, String[] officeHours) {
-        super(id, name, contact, department);
+    public TA(int id, String name, String contact, String department, String enrolledAs, String[] schedule) {
+        super(id, name, contact, department, schedule);
         this.enrolledAs = enrolledAs;
-        this.officeHours = officeHours;
     }
 
     public String stringMaker() {
         StringBuilder str = new StringBuilder();
-        for (int i = 0; i < officeHours.length; i++) {
+        for (int i = 0; i < getSchedule().length; i++) {
             String[] daysOfWeek = {"Mon", "Tue", "Wed", "Thu", "Fri"};
             str.append(daysOfWeek[i]).append(": ").append(officeHours[i]).append(System.lineSeparator());
         }
@@ -21,11 +20,6 @@ public class TA extends Person {
                 "Enrolled As: " + this.enrolledAs + System.lineSeparator() +
                 "Office Hours: " + System.lineSeparator() + str.toString();
     }
-
-    public boolean isAvailable() {
-        return true;
-    }
-
     public String getEnrolledAs() {
         return enrolledAs;
     }

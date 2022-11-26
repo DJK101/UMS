@@ -8,10 +8,9 @@ public class Student extends Person {
 
     public Student(int id, String name, String contact, String department,
                    String favouriteModule, String favouriteTA, String[] schedule, String course) {
-        super(id, name, contact, department);
+        super(id, name, contact, department, schedule);
         this.favouriteModule = favouriteModule;
         this.favouriteTA = favouriteTA;
-        this.schedule = schedule;
         this.course = course;
     }
 
