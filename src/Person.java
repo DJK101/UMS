@@ -3,12 +3,14 @@ public class Person {
     private String name;
     private String contact;
     private String department;
+    private String[] schedule;
 
-    public Person(int id, String name, String contact, String department) {
+    public Person(int id, String name, String contact, String department, String[] schedule) {
         this.id = id;
         this.name = name;
         this.contact = contact;
         this.department = department;
+        this.schedule = schedule;
     }
 
     public int getId() {
