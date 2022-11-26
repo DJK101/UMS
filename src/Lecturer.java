@@ -20,7 +20,7 @@ public class Lecturer extends Person {
         }
         return "Lecturer ID: " + getId() + System.lineSeparator() +
                 "Lecturer Name: " + getName() + System.lineSeparator() +
-                "Contact Info: " + getContact() + System.lineSeparator() +
+                "Contact Info: " + getEmail() + System.lineSeparator() +
                 "Department: " + getDepartment() + System.lineSeparator() +
                 "Office Location: " + this.officeLocation + System.lineSeparator() +
                 "Office Hours: " + System.lineSeparator() + str.toString();

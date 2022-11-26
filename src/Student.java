@@ -22,7 +22,7 @@ public class Student extends Person {
         }
         return "Student ID: " + getId() + System.lineSeparator() +
                 "Student Name: " + getName() + System.lineSeparator() +
-                "Contact Info: " + getContact() + System.lineSeparator() +
+                "Contact Info: " + getEmail() + System.lineSeparator() +
                 "Department: " + getDepartment() + System.lineSeparator() +
                 "Course: " + this.course + System.lineSeparator() +
                 "Schedule: " + System.lineSeparator() + str;
