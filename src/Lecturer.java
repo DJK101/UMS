@@ -6,11 +6,10 @@ public class Lecturer extends Person {
     private String[] officeHours;
 
     public Lecturer(int id, String name, String contact, String department,
-                    String officeLocation, String[] officeHours) {
-        super(id, name, contact, department);
+                    String officeLocation, String[] schedule) {
+        super(id, name, contact, department, schedule);
 
         this.officeLocation = officeLocation;
-        this.officeHours = officeHours;
     }
 
     public String stringMaker() {
@@ -27,7 +26,7 @@ public class Lecturer extends Person {
                 "Office Hours: " + System.lineSeparator() + str.toString();
     }
 
-    public Boolean isAvailable() {
+    public boolean isAvailable() {
         Random output = new Random();
         return output.nextBoolean();
     }
