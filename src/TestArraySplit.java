@@ -15,7 +15,6 @@ public class TestArraySplit {
                 "11:00", "17:00"};
 
         int[] converted = new int[arr.length];
-//        int[] converted = {1000, 900, 1100}
 
         for (int i = 0; i < arr.length; i++) {
             String removeColon = arr[i].replace(":", "");
