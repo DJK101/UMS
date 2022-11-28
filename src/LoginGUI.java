@@ -2,32 +2,48 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
 
-public class MyFrame implements ActionListener {
+public class LoginGUI implements ActionListener {
+
+    JFrame frame;
     JButton submitButton;
     JTextField idTextField;
     JTextField pwdTextField;
-    MyFrame() {
+
+    LoginGUI() {
+
+        //Create icon
+        ImageIcon icon = new ImageIcon("Images/noodle.png");
 
         //Create and set up the window.
-        JFrame frame = new JFrame("Noodle - Login");
+        frame = new JFrame("Noodle - Login");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setIconImage(icon.getImage());
 
         //Set up the content pane.
         Container contentPane = frame.getContentPane();
         SpringLayout layout = new SpringLayout();
         contentPane.setLayout(layout);
 
+        //Login title label
+        JLabel loginTitle = new JLabel("Login - Noodle v0.1");
+        loginTitle.setFont(new Font("Helvetica", Font.BOLD, 30));
+        contentPane.add(loginTitle);
+
+        //Submit login details button
         submitButton = new JButton("Submit");
         submitButton.addActionListener(this);
+        submitButton.setFocusable(false);
         contentPane.add(submitButton);
 
-        //Create and add the components.
+        //ID label and text field
         JLabel idLabel = new JLabel("ID:");
         idTextField = new JTextField("", 15);
         contentPane.add(idLabel);
         contentPane.add(idTextField);
 
+        //Password label and text field
         JLabel pwdLabel = new JLabel("Password:");
         pwdTextField = new JTextField("", 15);
         contentPane.add(pwdLabel);
@@ -73,9 +89,16 @@ public class MyFrame implements ActionListener {
                 10,
                 SpringLayout.SOUTH, pwdTextField);
 
+        //Position title
+        layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, loginTitle, //Horizontal
+                30,
+                SpringLayout.HORIZONTAL_CENTER, contentPane);
+        layout.putConstraint(SpringLayout.SOUTH, loginTitle,
+                -40,
+                SpringLayout.NORTH, idTextField);
 
         //Display the window.
-        frame.setSize(500, 200);
+        frame.setSize(750, 400);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
@@ -85,7 +108,11 @@ public class MyFrame implements ActionListener {
         if (e.getSource() == submitButton) {
             System.out.println("ID Input: " + idTextField.getText()
                     + System.lineSeparator() +
-                    "Password Input: "+ pwdTextField.getText());
+                    "Password Input: " + pwdTextField.getText());
+            if ("1".equals(idTextField.getText()) && "pwd".equals(pwdTextField.getText())) {
+                new InternalArea();
+                frame.dispose();
+            }
         }
     }
 }
