@@ -112,8 +112,8 @@ public class LoginGUI implements ActionListener {
         frame.setSize(750, 400);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        frame.getRootPane().setDefaultButton(submitButton);
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == submitButton) {

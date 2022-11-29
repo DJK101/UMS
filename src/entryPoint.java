@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class entryPoint {
     public static void main(String[] args) {
         new LoginGUI(); // Currently prints inputs to console
-//        new InternalArea();
 
         String[] TASchedule = {
                 "10:00", "17:00",
