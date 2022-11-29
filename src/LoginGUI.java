@@ -9,6 +9,7 @@ public class LoginGUI implements ActionListener {
     JButton submitButton;
     JTextField idTextField;
     JTextField pwdTextField;
+    Container contentPane;
 
     LoginGUI() {
 
@@ -21,7 +22,7 @@ public class LoginGUI implements ActionListener {
         frame.setIconImage(icon.getImage());
 
         //Set up the content pane.
-        Container contentPane = frame.getContentPane();
+        contentPane = frame.getContentPane();
         SpringLayout layout = new SpringLayout();
         contentPane.setLayout(layout);
 
@@ -114,12 +115,10 @@ public class LoginGUI implements ActionListener {
         frame.setVisible(true);
         frame.getRootPane().setDefaultButton(submitButton);
     }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == submitButton) {
-            System.out.println("ID Input: " + idTextField.getText()
-                    + System.lineSeparator() +
-                    "Password Input: " + pwdTextField.getText());
             if ("1".equals(idTextField.getText()) && "pwd".equals(pwdTextField.getText())) {
                 new InternalArea();
                 frame.dispose();
