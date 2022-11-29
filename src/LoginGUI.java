@@ -26,9 +26,13 @@ public class LoginGUI implements ActionListener {
         contentPane.setLayout(layout);
 
         //Login title label
-        JLabel loginTitle = new JLabel("Login - Noodle v0.1");
+        JLabel loginTitle = new JLabel("Login");
         loginTitle.setFont(new Font("Helvetica", Font.BOLD, 30));
         contentPane.add(loginTitle);
+
+        JLabel versionLabel = new JLabel("Noodle© 2022 - v0.1");
+        versionLabel.setFont(new Font("Helvetica", Font.PLAIN, 10));
+        contentPane.add(versionLabel);
 
         //Submit login details button
         submitButton = new JButton("Submit");
@@ -48,12 +52,20 @@ public class LoginGUI implements ActionListener {
         contentPane.add(pwdLabel);
         contentPane.add(pwdTextField);
 
+        //Position version label
+        layout.putConstraint(SpringLayout.EAST, versionLabel, //Horizontal
+                -5,
+                SpringLayout.EAST, contentPane);
+        layout.putConstraint(SpringLayout.SOUTH, versionLabel, //Vertical
+                -5,
+                SpringLayout.SOUTH, contentPane);
+
         //Position ID text field
         layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, idTextField, //Horizontal
-                20,
+                10,
                 SpringLayout.HORIZONTAL_CENTER, contentPane);
         layout.putConstraint(SpringLayout.VERTICAL_CENTER, idTextField, //Vertical
-                -30,
+                0,
                 SpringLayout.VERTICAL_CENTER, contentPane);
 
         //Position password text field
@@ -90,10 +102,10 @@ public class LoginGUI implements ActionListener {
 
         //Position title
         layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, loginTitle, //Horizontal
-                10,
+                -10,
                 SpringLayout.HORIZONTAL_CENTER, idTextField);
         layout.putConstraint(SpringLayout.SOUTH, loginTitle,
-                -40,
+                -20,
                 SpringLayout.NORTH, idTextField);
 
         //Display the window.
