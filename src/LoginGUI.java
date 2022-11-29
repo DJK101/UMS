@@ -50,7 +50,7 @@ public class LoginGUI implements ActionListener {
 
         //Position ID text field
         layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, idTextField, //Horizontal
-                30,
+                20,
                 SpringLayout.HORIZONTAL_CENTER, contentPane);
         layout.putConstraint(SpringLayout.VERTICAL_CENTER, idTextField, //Vertical
                 -30,
@@ -82,16 +82,16 @@ public class LoginGUI implements ActionListener {
 
         //Position Submit Button
         layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, submitButton, //Horizontal
-                0,
-                SpringLayout.HORIZONTAL_CENTER, contentPane);
+                -10,
+                SpringLayout.HORIZONTAL_CENTER, idTextField);
         layout.putConstraint(SpringLayout.NORTH, submitButton, //Vertical
                 10,
                 SpringLayout.SOUTH, pwdTextField);
 
         //Position title
         layout.putConstraint(SpringLayout.HORIZONTAL_CENTER, loginTitle, //Horizontal
-                30,
-                SpringLayout.HORIZONTAL_CENTER, contentPane);
+                10,
+                SpringLayout.HORIZONTAL_CENTER, idTextField);
         layout.putConstraint(SpringLayout.SOUTH, loginTitle,
                 -40,
                 SpringLayout.NORTH, idTextField);
