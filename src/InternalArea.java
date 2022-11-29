@@ -5,8 +5,8 @@ import java.awt.event.ActionListener;
 
 public class InternalArea implements ActionListener {
 
-    JButton logoutButton;
-    JFrame frame;
+    final JButton logoutButton;
+    final JFrame frame;
     InternalArea() {
 
         ImageIcon icon = new ImageIcon("Images/noodle.png");

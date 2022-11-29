@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 
 public class LoginGUI implements ActionListener {
 
-    JFrame frame;
-    JButton submitButton;
-    JTextField idTextField;
-    JTextField pwdTextField;
-    Container contentPane;
+    final JFrame frame;
+    final JButton submitButton;
+    final JTextField idTextField;
+    final JTextField pwdTextField;
+    final Container contentPane;
 
     LoginGUI() {
 
