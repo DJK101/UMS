@@ -13,7 +13,7 @@ public class entryPoint {
         TA adam = new TA(7,
                 "Java Adam",
                 "adam@swag.ise",
-                "This one",
+                "Here",
                 "Masters Student",
                 TASchedule);
 
