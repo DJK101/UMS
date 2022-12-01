@@ -30,8 +30,6 @@ public class entryPoint {
                 "Student Name",
                 "Student Email",
                 "Student Department",
-                "Student Favourite Module",
-                "Student Favourite TA",
                 testSchedule,
                 "Student Course",
                 testModules
