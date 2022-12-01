@@ -28,10 +28,10 @@ public class entryPoint {
         );
         TA testTA = new TA(
                 7,
-                "Java Adam",
-                "adam@swag.ise",
-                "Here",
-                "Masters Person.Student",
+                "TA Name",
+                "TA Email",
+                "TA Department",
+                "TA Enrolled As",
                 testSchedule);
 
         Student testStudent = new Student(
