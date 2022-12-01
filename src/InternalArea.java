@@ -7,6 +7,7 @@ public class InternalArea implements ActionListener {
 
     final JButton logoutButton;
     final JFrame frame;
+
     InternalArea() {
 
         ImageIcon icon = new ImageIcon("Images/noodle.png");
