@@ -22,12 +22,6 @@ public class Student extends Person {
         for (int i = 0; i < modules.length; i++) {
             System.out.println(modules[i]);
         }
-
-    }
-
-    public boolean shouldBeInClass() {
-        Random output = new Random();
-        return output.nextBoolean();
     }
 
     public String getFavouriteModule() {
