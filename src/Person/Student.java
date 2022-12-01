@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package Person;
+
 import java.util.Random;
 
 public class Student extends Person {
@@ -23,8 +24,8 @@ public class Student extends Person {
             String[] daysOfWeek = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
             str.append(daysOfWeek[i]).append(": ").append(schedule[i]).append(System.lineSeparator());
         }
-        return "Student ID: " + getId() + System.lineSeparator() +
-                "Student Name: " + getName() + System.lineSeparator() +
+        return "Person.Student ID: " + getId() + System.lineSeparator() +
+                "Person.Student Name: " + getName() + System.lineSeparator() +
                 "Contact Info: " + getEmail() + System.lineSeparator() +
                 "Department: " + getDepartment() + System.lineSeparator() +
                 "Course: " + this.course + System.lineSeparator() +

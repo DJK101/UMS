@@ -1,3 +1,5 @@
+import Person.TA;
+
 public class entryPoint {
     public static void main(String[] args) {
         new LoginGUI(); // Currently prints inputs to console
@@ -14,7 +16,7 @@ public class entryPoint {
                 "Java Adam",
                 "adam@swag.ise",
                 "Here",
-                "Masters Student",
+                "Masters Person.Student",
                 TASchedule);
 
         adam.setEmail("adam@swag.ise");
