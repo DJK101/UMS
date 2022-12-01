@@ -11,20 +11,6 @@ public class Lecturer extends Person {
         this.officeLocation = officeLocation;
     }
 
-    public String stringMaker() {
-        StringBuilder str = new StringBuilder();
-        for (int i = 0; i < getSchedule().length; i++) {
-            String[] daysOfWeek = {"Mon", "Tue", "Wed", "Thu", "Fri"};
-            str.append(daysOfWeek[i]).append(": ").append(getSchedule()[i]).append(System.lineSeparator());
-        }
-        return "Lecturer ID: " + getId() + System.lineSeparator() +
-                "Lecturer Name: " + getName() + System.lineSeparator() +
-                "Contact Info: " + getEmail() + System.lineSeparator() +
-                "Department: " + getDepartment() + System.lineSeparator() +
-                "Office Location: " + this.officeLocation + System.lineSeparator() +
-                "Office Hours: " + System.lineSeparator() + str;
-    }
-
     public boolean isAvailable() {
         Random output = new Random();
         return output.nextBoolean();
