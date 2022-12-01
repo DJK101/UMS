@@ -4,7 +4,7 @@ public class entryPoint {
     public static void main(String[] args) {
         new LoginGUI(); // Currently prints inputs to console
 
-        String[] TASchedule = {
+        String[] testSchedule = {
                 "10:00", "17:00",
                 "11:00", "17:00",
                 "11:00", "17:00",
@@ -17,7 +17,9 @@ public class entryPoint {
                 "adam@swag.ise",
                 "Here",
                 "Masters Person.Student",
-                TASchedule);
+                testSchedule);
+
+
 
         adam.setEmail("adam@swag.ise");
     }
