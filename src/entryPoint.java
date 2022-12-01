@@ -1,4 +1,5 @@
 import Person.Lecturer;
+import Person.President;
 import Person.Student;
 import Person.TA;
 
@@ -18,8 +19,14 @@ public class entryPoint {
                 "Module 1",
                 "Module 2"
         };
+        President testPresident = new President(
+                1,
+                "President Name",
+                "President Email",
+                "President Department",
+                testSchedule);
         Lecturer testLecturer = new Lecturer(
-                8,
+                2,
                 "Lecturer Name",
                 "Lecturer Email",
                 "Lecturer Department",
@@ -27,7 +34,7 @@ public class entryPoint {
                 testSchedule
         );
         TA testTA = new TA(
-                7,
+                3,
                 "TA Name",
                 "TA Email",
                 "TA Department",
@@ -35,7 +42,7 @@ public class entryPoint {
                 testSchedule);
 
         Student testStudent = new Student(
-                1,
+                4,
                 "Student Name",
                 "Student Email",
                 "Student Department",
@@ -44,11 +51,12 @@ public class entryPoint {
                 testModules
         );
 
-
         //Meaningless methods to prevent warnings
-        testLecturer.setId(8);
-        testTA.setEmail("adam@swag.ise");
-        testStudent.setCourse("Student Course");
+
+        testPresident.setId(1);
+        testLecturer.setId(2);
+        testTA.setId(3);
+        testStudent.setId(4);
     }
 
 }
