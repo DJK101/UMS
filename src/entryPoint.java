@@ -44,7 +44,6 @@ public class entryPoint {
                 testModules
         );
 
-
         //Meaningless methods to prevent warnings
         testLecturer.setId(8);
         testTA.setEmail("adam@swag.ise");
