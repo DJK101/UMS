@@ -1,7 +1,5 @@
 package Person;
 
-import java.util.Random;
-
 public class Student extends Person {
     private String favouriteModule;
     private String favouriteTA;
@@ -18,10 +16,12 @@ public class Student extends Person {
         this.modules = modules;
     }
 
-    public void showModules() {
-        for (int i = 0; i < modules.length; i++) {
-            System.out.println(modules[i]);
-        }
+    public String[] getModules() {
+        return modules;
+    }
+
+    public void setModules(String[] modules) {
+        this.modules = modules;
     }
 
     public String getFavouriteModule() {
