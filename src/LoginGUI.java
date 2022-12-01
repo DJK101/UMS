@@ -37,6 +37,7 @@ public class LoginGUI implements ActionListener {
 
         //Submit login details button
         submitButton = new JButton("Submit");
+        submitButton.setBackground(new Color(0x5057EE));
         submitButton.addActionListener(this);
         submitButton.setFocusable(false);
         contentPane.add(submitButton);

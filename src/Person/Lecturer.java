@@ -1,4 +1,4 @@
-import java.util.Random;
+package Person;
 
 public class Lecturer extends Person {
 
@@ -9,11 +9,6 @@ public class Lecturer extends Person {
         super(id, name, contact, department, schedule);
 
         this.officeLocation = officeLocation;
-    }
-
-    public boolean isAvailable() {
-        Random output = new Random();
-        return output.nextBoolean();
     }
 
     public String getOfficeLocation() {
