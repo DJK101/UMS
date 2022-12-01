@@ -14,7 +14,7 @@ public class entryPoint {
                 "Java Adam",
                 "adam@swag.ise",
                 "Here",
-                "Masters Student",
+                "Masters Studnt",
                 TASchedule);
 
         adam.setEmail("adam@swag.ise");
