@@ -13,11 +13,6 @@ public class Lecturer extends Person {
         this.officeLocation = officeLocation;
     }
 
-    public boolean isAvailable() {
-        Random output = new Random();
-        return output.nextBoolean();
-    }
-
     public String getOfficeLocation() {
         return officeLocation;
     }
