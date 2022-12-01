@@ -7,6 +7,7 @@ public class TA extends Person {
         super(id, name, contact, department, schedule);
         this.enrolledAs = enrolledAs;
     }
+
     public String getEnrolledAs() {
         return enrolledAs;
     }
