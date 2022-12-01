@@ -1,7 +1,5 @@
 package Person;
 
-import java.util.Random;
-
 public class Lecturer extends Person {
 
     private String officeLocation;
