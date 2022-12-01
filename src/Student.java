@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class Student extends Person {
@@ -5,13 +6,15 @@ public class Student extends Person {
     private String favouriteTA;
     private String[] schedule;
     private String course;
+    private String[] modules;
 
     public Student(int id, String name, String contact, String department,
-                   String favouriteModule, String favouriteTA, String[] schedule, String course) {
+                   String favouriteModule, String favouriteTA, String[] schedule, String course, String[] modules) {
         super(id, name, contact, department, schedule);
         this.favouriteModule = favouriteModule;
         this.favouriteTA = favouriteTA;
         this.course = course;
+        this.modules = modules;
     }
 
     public String stringMaker() {
@@ -26,6 +29,13 @@ public class Student extends Person {
                 "Department: " + getDepartment() + System.lineSeparator() +
                 "Course: " + this.course + System.lineSeparator() +
                 "Schedule: " + System.lineSeparator() + str;
+    }
+    
+    public void showModules() {
+    	for (int i = 0; i < modules.length; i++) {
+    		  System.out.println(modules[i]);
+    		}
+
     }
 
     public boolean shouldBeInClass() {
