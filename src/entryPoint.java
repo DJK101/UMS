@@ -17,13 +17,16 @@ public class entryPoint {
                 "Module 1",
                 "Module 2"
         };
-        TA adam = new TA(7,
+        TA adam = new TA(
+                7,
                 "Java Adam",
                 "adam@swag.ise",
                 "Here",
                 "Masters Person.Student",
                 testSchedule);
-        Student testStudent = new Student(1,
+
+        Student testStudent = new Student(
+                1,
                 "Student Name",
                 "Student Email",
                 "Student Department",
@@ -32,7 +35,7 @@ public class entryPoint {
                 testSchedule,
                 "Student Course",
                 testModules
-                );
+        );
 
 
         adam.setEmail("adam@swag.ise");
