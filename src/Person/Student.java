@@ -18,24 +18,10 @@ public class Student extends Person {
         this.modules = modules;
     }
 
-    public String stringMaker() {
-        StringBuilder str = new StringBuilder();
-        for (int i = 0; i < schedule.length; i++) {
-            String[] daysOfWeek = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
-            str.append(daysOfWeek[i]).append(": ").append(schedule[i]).append(System.lineSeparator());
-        }
-        return "Person.Student ID: " + getId() + System.lineSeparator() +
-                "Person.Student Name: " + getName() + System.lineSeparator() +
-                "Contact Info: " + getEmail() + System.lineSeparator() +
-                "Department: " + getDepartment() + System.lineSeparator() +
-                "Course: " + this.course + System.lineSeparator() +
-                "Schedule: " + System.lineSeparator() + str;
-    }
-    
     public void showModules() {
-    	for (int i = 0; i < modules.length; i++) {
-    		  System.out.println(modules[i]);
-    		}
+        for (int i = 0; i < modules.length; i++) {
+            System.out.println(modules[i]);
+        }
 
     }
 
