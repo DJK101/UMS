@@ -8,7 +8,7 @@ public class entryPoint {
         new LoginGUI(); // Currently prints inputs to console
 
         String[] testSchedule = {
-                "10:00", "17:00",
+                "10:00", "17:01",
                 "11:00", "17:00",
                 "11:00", "17:00",
                 "11:00", "17:00",
