@@ -4,7 +4,7 @@ public class passwordAuthentication {
 
     public static boolean password(String enteredUserID, String enteredPassword) {
 
-        int index = -1;
+        int index = 0;
 
         for (int i = 0; i < UserID.length; i++) {
             if (UserID[i].equals(enteredUserID)) {
@@ -14,6 +14,4 @@ public class passwordAuthentication {
         }
         return passwords[index].equals(enteredPassword);
     }
-
-
 }
