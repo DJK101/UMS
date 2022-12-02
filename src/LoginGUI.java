@@ -40,6 +40,7 @@ public class LoginGUI implements ActionListener {
         submitButton.setBackground(new Color(0x5057EE));
         submitButton.addActionListener(this);
         submitButton.setFocusable(false);
+        submitButton.setBackground(Color.lightGray);
         contentPane.add(submitButton);
 
         //ID label and text field
