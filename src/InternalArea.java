@@ -23,6 +23,19 @@ public class InternalArea implements ActionListener {
         logoutButton = new JButton("Logout");
         logoutButton.setFocusable(false);
         logoutButton.addActionListener(this);
+        logoutButton.setBackground(Color.lightGray);
+        logoutButton.setBorder(BorderFactory.createEmptyBorder(10, 30, 10, 30));
+
+        logoutButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                logoutButton.setBackground(Color.gray);
+            }
+
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                logoutButton.setBackground(Color.lightGray);
+            }
+        });
+
         frame.add(logoutButton);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
