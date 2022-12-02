@@ -1,7 +1,10 @@
 import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 
 public class LoginGUI implements ActionListener {
 
@@ -37,10 +40,13 @@ public class LoginGUI implements ActionListener {
 
         //Submit login details button
         submitButton = new JButton("Submit");
-        submitButton.setBackground(new Color(0x5057EE));
+        submitButton.setBackground(new Color(0xB6FF3D));
+        Border margin = new EmptyBorder(5, 15, 5, 15);
+        submitButton.setBorder(margin);
         submitButton.addActionListener(this);
         submitButton.setFocusable(false);
         contentPane.add(submitButton);
+
 
         //ID label and text field
         JLabel idLabel = new JLabel("ID:");
