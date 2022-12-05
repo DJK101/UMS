@@ -7,11 +7,20 @@ public class LoginFailed extends JFrame{
     private JButton tryAgainButton;
     private JPanel LoginFailedBckgrd;
 
+
     public LoginFailed() {
+
+        //Create icon
+        ImageIcon icon = new ImageIcon("Images/noodle.png");
+
+        //Create and set up the window
+        setTitle("Noodle- Failed Login");
+        setIconImage(icon.getImage());
         setContentPane(LoginFailedBckgrd);
         setSize(1550,850);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+
     }
 
     public static void main(String[] args) {

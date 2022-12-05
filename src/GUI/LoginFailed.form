@@ -68,7 +68,7 @@
             <properties>
               <font name="Century Gothic" size="24" style="0"/>
               <foreground color="-15198184"/>
-              <text value="Your ID number or password is incorrect"/>
+              <text value="Your user ID or password is incorrect"/>
             </properties>
           </component>
           <hspacer id="86028">
