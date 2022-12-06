@@ -131,8 +131,8 @@ public class LoginGUI implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == submitButton) {
-            if (passwordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
-                new InternalArea();
+            if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
+                new InternalArea(idTextField.getText());
                 frame.dispose();
             }
         }

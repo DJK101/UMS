@@ -1,6 +1,8 @@
 import Person.*;
 
 public class PremadeUsers {
+
+    //Basic Schedule for all users to have as a default
     private static final String[] testSchedule = {
             "10:00", "17:00",
             "11:00", "17:00",
@@ -10,10 +12,12 @@ public class PremadeUsers {
             "11:00", "15:00",
             "11:00", "17:00"};
 
+    //Modules for the student
     private static final String[] testModules = {
             "Module 1",
             "Module 2"};
 
+    //President template
     private static final President testPresident = new President(
             "1",
             "pwd",
@@ -22,6 +26,7 @@ public class PremadeUsers {
             "President Department",
             testSchedule);
 
+    //Lecturer template
     private static final Lecturer testLecturer = new Lecturer(
             "2",
             "pwd",
@@ -31,6 +36,7 @@ public class PremadeUsers {
             "Lecturer Office Location",
             testSchedule);
 
+    //TA template
     private static final TA testTA = new TA(
             "3",
             "pwd",
@@ -40,6 +46,7 @@ public class PremadeUsers {
             "TA Enrolled As",
             testSchedule);
 
+    //Student template
     private static final Student testStudent = new Student(
             "4",
             "pwd",
@@ -50,9 +57,11 @@ public class PremadeUsers {
             "Student Course",
             testModules);
 
+    //Array of premade users
     private static final Person[] people = {testPresident, testLecturer, testTA, testStudent};
 
-    public Person getUser(String id) {
+    //Method for accessing individual users based off their id
+    public static Person getUser(String id) {
         for (Person i : people) {
             if (i.getId().equals(id)) {
                 return i;
@@ -61,16 +70,18 @@ public class PremadeUsers {
         return testLecturer;
     }
 
+    //Method for accessing all ids within the system, for PasswordAuthentication
     public static String[] getIds() {
-        String[] ids = new String[4];
+        String[] ids = new String[people.length];
         for (int i = 0; i < ids.length; i++) {
             ids[i] = people[i].getId();
         }
         return ids;
     }
 
+    //Method for accessing all pwds within the system, for PasswordAuthentication
     public static String[] getPwds() {
-        String[] pwds = new String[4];
+        String[] pwds = new String[people.length];
         for (int i = 0; i < pwds.length; i++) {
             pwds[i] = people[i].getPassword();
         }
