@@ -15,7 +15,7 @@ public class PremadeUsers {
             "Module 2"};
 
     private final President testPresident = new President(
-            1,
+            "1",
             "pwd",
             "President Name",
             "President Email",
@@ -23,7 +23,7 @@ public class PremadeUsers {
             testSchedule);
 
     private final Lecturer testLecturer = new Lecturer(
-            2,
+            "2",
             "pwd",
             "Lecturer Name",
             "Lecturer Email",
@@ -32,7 +32,7 @@ public class PremadeUsers {
             testSchedule);
 
     private final TA testTA = new TA(
-            3,
+            "3",
             "pwd",
             "TA Name",
             "TA Email",
@@ -41,7 +41,7 @@ public class PremadeUsers {
             testSchedule);
 
     private final Student testStudent = new Student(
-            4,
+            "4",
             "pwd",
             "Student Name",
             "Student Email",
@@ -52,9 +52,9 @@ public class PremadeUsers {
 
     private final Person[] people = {testPresident, testLecturer, testTA, testStudent};
 
-    public Person getUser(int id) {
+    public Person getUser(String id) {
         for (Person i : people) {
-            if (i.getId() == id) {
+            if (i.getId().equals(id)) {
                 return i;
             }
         }
@@ -66,5 +66,6 @@ public class PremadeUsers {
         for (int i = 0; i < ids.length; i++) {
             ids[i] = people[i].getId();
         }
+        return ids;
     }
 }
