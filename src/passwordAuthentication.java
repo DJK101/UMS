@@ -1,6 +1,7 @@
 public class passwordAuthentication {
-    static String[] UserID = {"1223", "2334", "3445"};
-    static String[] passwords = {"student123", "ta123", "lecturer123"};
+
+    private static final String[] UserID = {"1", "1223", "2334", "3445"};
+    private static final String[] passwords = {"pwd", "student123", "ta123", "lecturer123"};
 
     public static boolean password(String enteredUserID, String enteredPassword) {
 
