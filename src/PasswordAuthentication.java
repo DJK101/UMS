@@ -1,4 +1,4 @@
-public class passwordAuthentication {
+public class PasswordAuthentication {
 
     public static boolean password(String enteredUserID, String enteredPassword) {
 
