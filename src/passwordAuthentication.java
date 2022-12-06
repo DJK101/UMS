@@ -13,6 +13,6 @@ public class passwordAuthentication {
                 break;
             }
         }
-        return passwords[index].equals(enteredPassword);
+        return PremadeUsers.getPwds()[index].equals(enteredPassword);
     }
 }

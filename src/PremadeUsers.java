@@ -68,4 +68,12 @@ public class PremadeUsers {
         }
         return ids;
     }
+
+    public static String[] getPwds() {
+        String[] pwds = new String[4];
+        for (int i = 0; i < pwds.length; i++) {
+            pwds[i] = people[i].getId();
+        }
+        return pwds;
+    }
 }
