@@ -72,7 +72,7 @@ public class PremadeUsers {
     public static String[] getPwds() {
         String[] pwds = new String[4];
         for (int i = 0; i < pwds.length; i++) {
-            pwds[i] = people[i].getId();
+            pwds[i] = people[i].getPassword();
         }
         return pwds;
     }
