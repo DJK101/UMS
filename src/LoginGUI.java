@@ -132,7 +132,7 @@ public class LoginGUI implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == submitButton) {
             if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
-                new InternalArea();
+                new InternalArea(idTextField.getText());
                 frame.dispose();
             }
         }

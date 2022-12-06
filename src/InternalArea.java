@@ -1,3 +1,5 @@
+import Person.Person;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -8,7 +10,7 @@ public class InternalArea implements ActionListener {
     final JButton logoutButton;
     final JFrame frame;
 
-    InternalArea() {
+    InternalArea(String userID) {
 
         ImageIcon icon = new ImageIcon("Images/noodle.png");
 
@@ -17,8 +19,8 @@ public class InternalArea implements ActionListener {
         frame.setLayout(new FlowLayout());
 
 
-
-        JLabel label = new JLabel("You are logged in!", SwingConstants.CENTER);
+        Person currentUser = PremadeUsers.getUser(userID);
+        JLabel label = new JLabel("Welcome " + currentUser.getName() + "!", SwingConstants.CENTER);
         label.setFont(new Font("Helvetica", Font.BOLD, 30));
         frame.add(label);
 

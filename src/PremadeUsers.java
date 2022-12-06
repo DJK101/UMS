@@ -52,7 +52,7 @@ public class PremadeUsers {
 
     private static final Person[] people = {testPresident, testLecturer, testTA, testStudent};
 
-    public Person getUser(String id) {
+    public static Person getUser(String id) {
         for (Person i : people) {
             if (i.getId().equals(id)) {
                 return i;
