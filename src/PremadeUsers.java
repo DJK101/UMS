@@ -60,4 +60,11 @@ public class PremadeUsers {
         }
         return testLecturer;
     }
+
+    public String[] getIds() {
+        String[] ids = new String[4];
+        for (int i = 0; i < ids.length; i++) {
+            ids[i] = people[i].getId();
+        }
+    }
 }
