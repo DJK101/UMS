@@ -4,7 +4,7 @@ public class Student extends Person {
     private String course;
     private String[] modules;
 
-    public Student(int id, String password, String name, String contact, String department, String[] schedule,
+    public Student(String id, String password, String name, String contact, String department, String[] schedule,
                    String course, String[] modules) {
         super(id, password, name, contact, department, schedule);
         this.course = course;

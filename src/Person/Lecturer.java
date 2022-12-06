@@ -4,7 +4,7 @@ public class Lecturer extends Person {
 
     private String officeLocation;
 
-    public Lecturer(int id, String password, String name, String contact, String department,
+    public Lecturer(String id, String password, String name, String contact, String department,
                     String officeLocation, String[] schedule) {
         super(id, password, name, contact, department, schedule);
 
