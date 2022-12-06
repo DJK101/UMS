@@ -6,13 +6,15 @@ import java.util.Calendar;
 
 public class Person {
     private int id;
+    private String password;
     private String name;
     private String email;
     private String department;
     private String[] schedule;
 
-    public Person(int id, String name, String email, String department, String[] schedule) {
+    public Person(int id, String password, String name, String email, String department, String[] schedule) {
         this.id = id;
+        this.password = password;
         this.name = name;
         this.email = email;
         this.department = department;
@@ -73,20 +75,20 @@ public class Person {
         return (nowInt > startTime && nowInt < endTime);
     }
 
-    public String[] getSchedule() {
-        return schedule;
-    }
-
-    public void setSchedule(String[] schedule) {
-        this.schedule = schedule;
-    }
-
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getName() {
@@ -111,5 +113,13 @@ public class Person {
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    public String[] getSchedule() {
+        return schedule;
+    }
+
+    public void setSchedule(String[] schedule) {
+        this.schedule = schedule;
     }
 }
