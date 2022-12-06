@@ -3,8 +3,8 @@ package Person;
 public class TA extends Person {
     private String enrolledAs;
 
-    public TA(int id, String name, String contact, String department, String enrolledAs, String[] schedule) {
-        super(id, name, contact, department, schedule);
+    public TA(String id, String password, String name, String contact, String department, String enrolledAs, String[] schedule) {
+        super(id, password, name, contact, department, schedule);
         this.enrolledAs = enrolledAs;
     }
 

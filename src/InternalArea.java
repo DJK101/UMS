@@ -16,6 +16,8 @@ public class InternalArea implements ActionListener {
         frame.setIconImage(icon.getImage());
         frame.setLayout(new FlowLayout());
 
+
+
         JLabel label = new JLabel("You are logged in!", SwingConstants.CENTER);
         label.setFont(new Font("Helvetica", Font.BOLD, 30));
         frame.add(label);

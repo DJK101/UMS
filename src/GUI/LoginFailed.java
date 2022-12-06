@@ -17,7 +17,7 @@ public class LoginFailed extends JFrame{
         setTitle("Noodle- Failed Login");
         setIconImage(icon.getImage());
         setContentPane(LoginFailedBckgrd);
-        setSize(1550,850);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
 
