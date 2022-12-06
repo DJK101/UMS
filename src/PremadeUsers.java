@@ -1,7 +1,7 @@
 import Person.*;
 
 public class PremadeUsers {
-    private final String[] testSchedule = {
+    private static final String[] testSchedule = {
             "10:00", "17:00",
             "11:00", "17:00",
             "11:00", "17:00",
@@ -10,11 +10,11 @@ public class PremadeUsers {
             "11:00", "15:00",
             "11:00", "17:00"};
 
-    private final String[] testModules = {
+    private static final String[] testModules = {
             "Module 1",
             "Module 2"};
 
-    private final President testPresident = new President(
+    private static final President testPresident = new President(
             "1",
             "pwd",
             "President Name",
@@ -22,7 +22,7 @@ public class PremadeUsers {
             "President Department",
             testSchedule);
 
-    private final Lecturer testLecturer = new Lecturer(
+    private static final Lecturer testLecturer = new Lecturer(
             "2",
             "pwd",
             "Lecturer Name",
@@ -31,7 +31,7 @@ public class PremadeUsers {
             "Lecturer Office Location",
             testSchedule);
 
-    private final TA testTA = new TA(
+    private static final TA testTA = new TA(
             "3",
             "pwd",
             "TA Name",
@@ -40,7 +40,7 @@ public class PremadeUsers {
             "TA Enrolled As",
             testSchedule);
 
-    private final Student testStudent = new Student(
+    private static final Student testStudent = new Student(
             "4",
             "pwd",
             "Student Name",
@@ -50,7 +50,7 @@ public class PremadeUsers {
             "Student Course",
             testModules);
 
-    private final Person[] people = {testPresident, testLecturer, testTA, testStudent};
+    private static final Person[] people = {testPresident, testLecturer, testTA, testStudent};
 
     public Person getUser(String id) {
         for (Person i : people) {
@@ -61,7 +61,7 @@ public class PremadeUsers {
         return testLecturer;
     }
 
-    public String[] getIds() {
+    public static String[] getIds() {
         String[] ids = new String[4];
         for (int i = 0; i < ids.length; i++) {
             ids[i] = people[i].getId();

@@ -7,8 +7,8 @@ public class passwordAuthentication {
 
         int index = 0;
 
-        for (int i = 0; i < UserID.length; i++) {
-            if (UserID[i].equals(enteredUserID)) {
+        for (int i = 0; i < PremadeUsers.getIds().length; i++) {
+            if (PremadeUsers.getIds()[i].equals(enteredUserID)) {
                 index = i;
                 break;
             }
