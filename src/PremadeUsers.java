@@ -1,7 +1,7 @@
 import Person.*;
 
 public class PremadeUsers {
-    String[] testSchedule = {
+    private final String[] testSchedule = {
             "10:00", "17:00",
             "11:00", "17:00",
             "11:00", "17:00",
@@ -10,18 +10,18 @@ public class PremadeUsers {
             "11:00", "15:00",
             "11:00", "17:00"};
 
-    String[] testModules = {
+    private final String[] testModules = {
             "Module 1",
             "Module 2"};
 
-    President testPresident = new President(
+    private final President testPresident = new President(
             1,
             "President Name",
             "President Email",
             "President Department",
             testSchedule);
 
-    Lecturer testLecturer = new Lecturer(
+    private final Lecturer testLecturer = new Lecturer(
             2,
             "Lecturer Name",
             "Lecturer Email",
@@ -29,7 +29,7 @@ public class PremadeUsers {
             "Lecturer Office Location",
             testSchedule);
 
-    TA testTA = new TA(
+    private final TA testTA = new TA(
             3,
             "TA Name",
             "TA Email",
@@ -37,7 +37,7 @@ public class PremadeUsers {
             "TA Enrolled As",
             testSchedule);
 
-    Student testStudent = new Student(
+    private final Student testStudent = new Student(
             4,
             "Student Name",
             "Student Email",
