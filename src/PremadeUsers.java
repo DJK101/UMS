@@ -16,6 +16,7 @@ public class PremadeUsers {
 
     private final President testPresident = new President(
             1,
+            "pwd",
             "President Name",
             "President Email",
             "President Department",
@@ -23,6 +24,7 @@ public class PremadeUsers {
 
     private final Lecturer testLecturer = new Lecturer(
             2,
+            "pwd",
             "Lecturer Name",
             "Lecturer Email",
             "Lecturer Department",
@@ -31,6 +33,7 @@ public class PremadeUsers {
 
     private final TA testTA = new TA(
             3,
+            "pwd",
             "TA Name",
             "TA Email",
             "TA Department",
@@ -39,6 +42,7 @@ public class PremadeUsers {
 
     private final Student testStudent = new Student(
             4,
+            "pwd",
             "Student Name",
             "Student Email",
             "Student Department",
