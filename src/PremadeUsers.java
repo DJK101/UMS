@@ -48,7 +48,7 @@ public class PremadeUsers {
 
     private final Person[] people = {testPresident, testLecturer, testTA, testStudent};
 
-    public Person getPerson(int id) {
+    public Person getUser(int id) {
         for (Person i : people) {
             if (i.getId() == id) {
                 return i;
