@@ -5,14 +5,14 @@ import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
 public class Person {
-    private int id;
+    private String id;
     private String password;
     private String name;
     private String email;
     private String department;
     private String[] schedule;
 
-    public Person(int id, String password, String name, String email, String department, String[] schedule) {
+    public Person(String id, String password, String name, String email, String department, String[] schedule) {
         this.id = id;
         this.password = password;
         this.name = name;
@@ -75,11 +75,11 @@ public class Person {
         return (nowInt > startTime && nowInt < endTime);
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
