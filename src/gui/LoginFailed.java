@@ -1,8 +1,10 @@
-package GUI;
+package gui;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class LoginFailed extends JFrame{
+public class LoginFailed extends JFrame implements ActionListener {
     private JLabel lblLogin;
     private JButton tryAgainButton;
     private JPanel LoginFailedBckgrd;
@@ -13,6 +15,8 @@ public class LoginFailed extends JFrame{
         //Create icon
         ImageIcon icon = new ImageIcon("Images/noodle.png");
 
+        tryAgainButton.addActionListener(this);
+
         //Create and set up the window
         setTitle("Noodle- Failed Login");
         setIconImage(icon.getImage());
@@ -20,10 +24,14 @@ public class LoginFailed extends JFrame{
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-
+        getRootPane().setDefaultButton(tryAgainButton);
     }
 
-    public static void main(String[] args) {
-        LoginFailed myFrame = new LoginFailed();
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == tryAgainButton) {
+            new LoginGUI();
+            dispose();
+        }
     }
 }

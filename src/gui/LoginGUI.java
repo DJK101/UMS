@@ -1,3 +1,7 @@
+package gui;
+
+import data.PasswordAuthentication;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -11,7 +15,7 @@ public class LoginGUI implements ActionListener {
     final JTextField pwdTextField;
     final Container contentPane;
 
-    LoginGUI() {
+    public LoginGUI() {
 
         //Create icon
         ImageIcon icon = new ImageIcon("Images/noodle.png");
@@ -121,8 +125,9 @@ public class LoginGUI implements ActionListener {
                 -20,
                 SpringLayout.NORTH, idTextField);
 
+
         //Display the window.
-        frame.setSize(750, 400);
+        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.getRootPane().setDefaultButton(submitButton);
@@ -133,6 +138,9 @@ public class LoginGUI implements ActionListener {
         if (e.getSource() == submitButton) {
             if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
                 new InternalArea(idTextField.getText());
+                frame.dispose();
+            } else {
+                new LoginFailed();
                 frame.dispose();
             }
         }

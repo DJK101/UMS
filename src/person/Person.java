@@ -1,4 +1,4 @@
-package Person;
+package person;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

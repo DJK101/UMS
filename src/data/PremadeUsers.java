@@ -1,4 +1,6 @@
-import Person.*;
+package data;
+
+import person.*;
 
 public class PremadeUsers {
 
@@ -70,7 +72,7 @@ public class PremadeUsers {
         return testLecturer;
     }
 
-    //Method for accessing all ids within the system, for PasswordAuthentication
+    //Method for accessing all ids within the system, for data.PasswordAuthentication
     public static String[] getIds() {
         String[] ids = new String[people.length];
         for (int i = 0; i < ids.length; i++) {
@@ -79,7 +81,7 @@ public class PremadeUsers {
         return ids;
     }
 
-    //Method for accessing all pwds within the system, for PasswordAuthentication
+    //Method for accessing all pwds within the system, for data.PasswordAuthentication
     public static String[] getPwds() {
         String[] pwds = new String[people.length];
         for (int i = 0; i < pwds.length; i++) {
