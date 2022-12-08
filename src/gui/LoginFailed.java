@@ -12,7 +12,7 @@ public class LoginFailed extends JFrame implements ActionListener {
 
     public LoginFailed() {
 
-        //Create the icon
+        //Create icon
         ImageIcon icon = new ImageIcon("Images/noodle.png");
 
         tryAgainButton.addActionListener(this);

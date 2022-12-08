@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Refactored project structure">
-      <change afterPath="$PROJECT_DIR$/UMS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/LoginFailed.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/LoginFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/InternalArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PasswordAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/Lecturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/President.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person/TA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/TA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PremadeUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PremadeUsers.java" afterDir="false" />
-    </list>
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Refactored project structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,24 +27,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GUI" />
@@ -98,6 +84,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored project structure" />
