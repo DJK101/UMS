@@ -10,7 +10,7 @@ public class LoginFailed extends JFrame{
 
     public LoginFailed() {
 
-        //Create icon
+        //Create the icon
         ImageIcon icon = new ImageIcon("Images/noodle.png");
 
         //Create and set up the window
