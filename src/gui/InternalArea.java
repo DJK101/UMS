@@ -1,4 +1,7 @@
-import Person.Person;
+package gui;
+
+import person.Person;
+import data.PremadeUsers;
 
 import javax.swing.*;
 import java.awt.*;

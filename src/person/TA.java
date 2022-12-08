@@ -1,4 +1,4 @@
-package Person;
+package person;
 
 public class TA extends Person {
     private String enrolledAs;
