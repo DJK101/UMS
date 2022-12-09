@@ -1,16 +1,23 @@
 package gui;
 
 import javax.swing.*;
+import java.awt.*;
 
-public class ExternalArea {
+public class ExternalArea extends JFrame {
 
-    private JPanel externalArea;
+    private JPanel externalAreaBg;
+    private JLabel noodleLogo;
 
-    public static void main(String[] args) {
+    public ExternalArea() {
 
-        LoginFailed myFrame = new LoginFailed();
-        JFrame f=new JFrame();
-        f.add(myFrame);
-        f.setVisible(true);
+        ImageIcon icon = new ImageIcon("Images/NoodleLogo_Scaled.png");
+
+        //Create and set up the window
+        setTitle("Noodle - Login");
+        setIconImage(icon.getImage());
+        setContentPane(externalAreaBg);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setVisible(true);
     }
 }
