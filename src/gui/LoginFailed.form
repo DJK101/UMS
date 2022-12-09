@@ -61,7 +61,7 @@
           </grid>
         </constraints>
         <properties>
-          <background color="-989515"/>
+          <background color="-2174299"/>
           <focusCycleRoot value="true"/>
           <focusTraversalPolicyProvider value="false"/>
           <foreground color="-513"/>

@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="noodle logo right size">
-      <change afterPath="$PROJECT_DIR$/Images/NoodleLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/NoodleLogo_Scaled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/NoodleLogo_Scaled55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ExternalArea.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/InternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/InternalArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,7 @@
       <updated>1670440478083</updated>
       <workItem from="1670440485685" duration="1498000" />
       <workItem from="1670513306448" duration="324000" />
-      <workItem from="1670513649718" duration="16267000" />
+      <workItem from="1670513649718" duration="16870000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
@@ -128,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670518707303</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="noodle logo right size">
+      <created>1670600939177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670600939177</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
