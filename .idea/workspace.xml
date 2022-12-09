@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="noodle logo right size">
-      <change afterPath="$PROJECT_DIR$/src/gui/ExternalArea.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="fixed the failed login main panel bg colour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <recent name="C:\Users\rosie\Development\UMS\Images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExternalArea">
     <configuration name="EntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.EntryPoint" />
       <module name="UMS" />
@@ -90,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExternalArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.ExternalArea" />
+      <module name="UMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExternalArea" />
         <item itemvalue="Application.EntryPoint" />
       </list>
     </recent_temporary>
@@ -106,7 +118,7 @@
       <updated>1670440478083</updated>
       <workItem from="1670440485685" duration="1498000" />
       <workItem from="1670513306448" duration="324000" />
-      <workItem from="1670513649718" duration="16870000" />
+      <workItem from="1670513649718" duration="17298000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
@@ -129,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670600939177</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed the failed login main panel bg colour">
+      <created>1670601588259</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670601588259</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +183,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="progress with noodle logo, centered and correct label size" />
     <MESSAGE value="noodle logo right size" />
-    <option name="LAST_COMMIT_MESSAGE" value="noodle logo right size" />
+    <MESSAGE value="fixed the failed login main panel bg colour" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the failed login main panel bg colour" />
   </component>
 </project>
