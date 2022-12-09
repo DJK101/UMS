@@ -15,10 +15,13 @@ public class LoginFailed extends JFrame implements ActionListener {
     public LoginFailed() {
 
         //Create icon
-        ImageIcon icon = new ImageIcon("Images/noodle.png");
-        Image new_img = icon.getImage().getScaledInstance(120, 40, Image.SCALE_SMOOTH);
+        ImageIcon icon = new ImageIcon("Images/NoodleLogo_Scaled.png");
+        Image i = icon.getImage();
+        Image new_img = i.getScaledInstance(55, 55, Image.SCALE_AREA_AVERAGING);
+        icon = new ImageIcon(new_img);
+
         tryAgainButton.addActionListener(this);
-        //img = new ImageIcon(new_img);
+
 
         //Create and set up the window
         setTitle("Noodle- Failed Login");
@@ -33,20 +36,12 @@ public class LoginFailed extends JFrame implements ActionListener {
         //noodleLogo.setSize(10, 10);
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == tryAgainButton) {
             new LoginGUI();
             dispose();
         }
-    }
-
-
-    public static void main(String[] args) {
-
-        LoginFailed myFrame = new LoginFailed();
-        JFrame f=new JFrame();
-        f.add(myFrame);
-        f.setVisible(true);
     }
 }

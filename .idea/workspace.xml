@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="noodle logo right size">
+      <change afterPath="$PROJECT_DIR$/Images/NoodleLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/NoodleLogo_Scaled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/NoodleLogo_Scaled55.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/InternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/InternalArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +49,37 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IbBbyX3AzqdAWxsTmsdu8gePEs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GUI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rosie\Development\UMS\Images" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +112,7 @@
       <updated>1670440478083</updated>
       <workItem from="1670440485685" duration="1498000" />
       <workItem from="1670513306448" duration="324000" />
-      <workItem from="1670513649718" duration="4872000" />
+      <workItem from="1670513649718" duration="16267000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
@@ -107,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670512706104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="progress with noodle logo, centered and correct label size">
+      <created>1670518707303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670518707303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,8 +158,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Refactored project structure" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="progress with noodle logo, centered and correct label size" />
+    <MESSAGE value="noodle logo right size" />
+    <option name="LAST_COMMIT_MESSAGE" value="noodle logo right size" />
   </component>
 </project>
