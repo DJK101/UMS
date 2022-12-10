@@ -156,7 +156,7 @@
       <updated>1670440478083</updated>
       <workItem from="1670440485685" duration="1498000" />
       <workItem from="1670513306448" duration="324000" />
-      <workItem from="1670513649718" duration="17682000" />
+      <workItem from="1670513649718" duration="21311000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
@@ -193,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670601981066</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="shit balls">
+      <created>1670602609014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670602609014</updated>
+    </task>
+    <task id="LOCAL-00007" summary="made a base for the external gui, and made a slight colour change">
+      <created>1670676607213</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670676607213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +244,8 @@
     <MESSAGE value="noodle logo right size" />
     <MESSAGE value="fixed the failed login main panel bg colour" />
     <MESSAGE value="made a background for external area" />
-    <option name="LAST_COMMIT_MESSAGE" value="made a background for external area" />
+    <MESSAGE value="shit balls" />
+    <MESSAGE value="made a base for the external gui, and made a slight colour change" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a base for the external gui, and made a slight colour change" />
   </component>
 </project>
