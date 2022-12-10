@@ -1,15 +1,20 @@
 package gui;
 
+import data.PasswordAuthentication;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class ExternalArea extends JFrame {
+public class ExternalArea extends JFrame implements ActionListener {
 
+    private final JFrame frame;
     private JPanel externalAreaBg;
     private JLabel noodleLogo;
     private JLabel lblLogin;
-    private JTextField textField1;
-    private JPasswordField passwordField1;
+    private JTextField idTextField;
+    private JPasswordField pwdTextField;
     private JButton btnLogin;
 
     public ExternalArea() {
@@ -22,11 +27,38 @@ public class ExternalArea extends JFrame {
         noodleLogo.setIcon(icon);
 
         //Create and set up the window
-        setTitle("Noodle - btnLogin");
+        frame = new JFrame("Noodle - Login");
+        setTitle("Noodle - Login");
         setIconImage(icon.getImage());
         setContentPane(externalAreaBg);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+
+        //button styling
+        btnLogin.addActionListener(this);
+
+        btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnLogin.setBackground(new Color(158, 85, 11));
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnLogin.setBackground( new Color(185,119, 39));
+            }
+        });
     }
-}
+
+    @Override
+        public void actionPerformed(ActionEvent e) {
+            if (e.getSource() == btnLogin) {
+                if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
+                    new InternalArea(idTextField.getText());
+                    frame.dispose();
+                } else {
+                    new LoginFailed();
+                    frame.dispose();
+                }
+            }
+        }
+    }
+

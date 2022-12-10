@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="external gui slays the house down 💅💅💅">
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="fixed button in external gui so it says &quot;login&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +121,7 @@
       <workItem from="1670440485685" duration="1498000" />
       <workItem from="1670513306448" duration="324000" />
       <workItem from="1670513649718" duration="21544000" />
-      <workItem from="1670678660700" duration="7143000" />
+      <workItem from="1670678660700" duration="12559000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
@@ -197,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670685933609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed button in external gui so it says &quot;login&quot;">
+      <created>1670686301178</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670686301178</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +250,7 @@
     <MESSAGE value="made external gui more responsive" />
     <MESSAGE value="external gui looks good, fixed forms, fonts, button" />
     <MESSAGE value="external gui slays the house down " />
-    <option name="LAST_COMMIT_MESSAGE" value="external gui slays the house down " />
+    <MESSAGE value="fixed button in external gui so it says &quot;login&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed button in external gui so it says &quot;login&quot;" />
   </component>
 </project>
