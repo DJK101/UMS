@@ -33,6 +33,7 @@ public class ExternalArea extends JFrame implements ActionListener {
         setContentPane(externalAreaBg);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        getRootPane().setDefaultButton(submitButton);
         setVisible(true);
     }
 
