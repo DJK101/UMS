@@ -10,7 +10,7 @@ public class ExternalArea extends JFrame {
     private JLabel lblLogin;
     private JTextField textField1;
     private JPasswordField passwordField1;
-    private JButton tryAgainButton;
+    private JButton btnLogin;
 
     public ExternalArea() {
 
@@ -22,7 +22,7 @@ public class ExternalArea extends JFrame {
         noodleLogo.setIcon(icon);
 
         //Create and set up the window
-        setTitle("Noodle - Login");
+        setTitle("Noodle - btnLogin");
         setIconImage(icon.getImage());
         setContentPane(externalAreaBg);
         setExtendedState(JFrame.MAXIMIZED_BOTH);

@@ -136,11 +136,12 @@
                   <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                 </constraints>
               </vspacer>
-              <component id="502cf" class="javax.swing.JButton" binding="tryAgainButton" default-binding="true">
+              <component id="502cf" class="javax.swing.JButton" binding="btnLogin">
                 <constraints>
                   <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
+                  <actionCommand value="Login"/>
                   <background color="-4622553"/>
                   <borderPainted value="false"/>
                   <focusCycleRoot value="true"/>
@@ -148,8 +149,10 @@
                   <font name="Century Gothic" size="20" style="0"/>
                   <foreground color="-1"/>
                   <hideActionText value="true"/>
+                  <inheritsPopupMenu value="true"/>
+                  <label value="Login"/>
                   <margin top="10" left="40" bottom="10" right="40"/>
-                  <text value="Try Again"/>
+                  <text value="Login"/>
                   <verifyInputWhenFocusTarget value="true"/>
                   <visible value="true"/>
                 </properties>
