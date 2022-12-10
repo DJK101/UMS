@@ -1,12 +1,12 @@
-package Person;
+package person;
 
 public class Lecturer extends Person {
 
     private String officeLocation;
 
-    public Lecturer(int id, String name, String contact, String department,
+    public Lecturer(String id, String password, String name, String contact, String department,
                     String officeLocation, String[] schedule) {
-        super(id, name, contact, department, schedule);
+        super(id, password, name, contact, department, schedule);
 
         this.officeLocation = officeLocation;
     }
