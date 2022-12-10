@@ -19,7 +19,9 @@ public class LoginFailed extends JFrame implements ActionListener {
         Image i = icon.getImage();
         Image new_img = i.getScaledInstance(55, 55, Image.SCALE_AREA_AVERAGING);
         icon = new ImageIcon(new_img);
+        noodleLogo.setIcon(icon);
 
+        //Button action listener
         tryAgainButton.addActionListener(this);
 
 
@@ -32,8 +34,6 @@ public class LoginFailed extends JFrame implements ActionListener {
         setVisible(true);
         getRootPane().setDefaultButton(tryAgainButton);
 
-        noodleLogo.setIcon(icon);
-        //noodleLogo.setSize(10, 10);
     }
 
 
