@@ -10,7 +10,7 @@ public class ExternalArea extends JFrame {
     private JLabel lblLogin;
     private JTextField textField1;
     private JPasswordField passwordField1;
-    private JButton button1;
+    private JButton tryAgainButton;
 
     public ExternalArea() {
 
