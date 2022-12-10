@@ -56,6 +56,7 @@ public class InternalArea implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setLocationRelativeTo(null);
+        frame.getRootPane().setDefaultButton(logoutButton);
         frame.setVisible(true);
     }
 
