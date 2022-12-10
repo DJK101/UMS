@@ -64,7 +64,7 @@ public class InternalArea implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == logoutButton) {
             //Returns to Login Page
-            new LoginGUI();
+            new ExternalArea();
             frame.dispose();
         }
     }

@@ -40,7 +40,7 @@ public class LoginFailed extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == tryAgainButton) {
-            new LoginGUI();
+            new ExternalArea();
             dispose();
         }
     }
