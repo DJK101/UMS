@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="changed names of users">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/data/PremadeUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/data/PremadeUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Can use enter to submit in ExternalArea">
       <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670601981066</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added login functionality to ExternalArea">
+      <created>1670715927363</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670715927363</updated>
+    </task>
+    <task id="LOCAL-00007" summary="LoginFailed now points to new ExternalArea">
+      <created>1670715980607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670715980607</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Can use enter to submit in ExternalArea">
+      <created>1670716042602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670716042602</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +223,9 @@
     <MESSAGE value="noodle logo right size" />
     <MESSAGE value="fixed the failed login main panel bg colour" />
     <MESSAGE value="made a background for external area" />
-    <option name="LAST_COMMIT_MESSAGE" value="made a background for external area" />
+    <MESSAGE value="Added login functionality to ExternalArea" />
+    <MESSAGE value="LoginFailed now points to new ExternalArea" />
+    <MESSAGE value="Can use enter to submit in ExternalArea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can use enter to submit in ExternalArea" />
   </component>
 </project>
