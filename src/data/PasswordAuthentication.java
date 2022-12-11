@@ -12,7 +12,7 @@ public class PasswordAuthentication {
             if (PremadeUsers.getIds()[i].equals(enteredUserID)) {
                 index = i;
                 break;
-            } else if (i == PremadeUsers.getIds().length - 1){
+            } else if (i >= PremadeUsers.getIds().length - 1){
                 return false;
             }
         }
