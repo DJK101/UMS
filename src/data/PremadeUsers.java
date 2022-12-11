@@ -69,7 +69,7 @@ public class PremadeUsers {
                 return i;
             }
         }
-        return testLecturer;
+        return null;
     }
 
     //Method for accessing all ids within the system, for data.PasswordAuthentication
