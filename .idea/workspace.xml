@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Can use enter to submit in ExternalArea">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_11_12_2022_13_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_11_12_2022_13_04__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_11_12_2022_13_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_11_12_2022_13_05__Changes_.xml" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="committing again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/Internal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/Internal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/Internal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/Internal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Internal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Internal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +134,7 @@
       <workItem from="1670513306448" duration="324000" />
       <workItem from="1670513649718" duration="21544000" />
       <workItem from="1670678660700" duration="12559000" />
+      <workItem from="1670788265784" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
