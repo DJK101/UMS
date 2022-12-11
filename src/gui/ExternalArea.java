@@ -49,6 +49,11 @@ public class ExternalArea extends JFrame implements ActionListener {
                 btnLogin.setBackground( new Color(185,119, 39));
             }
         });
+
+        if (!PasswordAuthentication.attempts(4)) {
+            btnLogin.setEnabled(false);
+            btnLogin.setBackground(new Color(158, 85, 11));
+        }
     }
 
     @Override
@@ -60,7 +65,7 @@ public class ExternalArea extends JFrame implements ActionListener {
                 String enteredPwd = String.valueOf(pwdTextField.getPassword());
 
                 //Checks if the entered details are valid
-                if (PasswordAuthentication.password(enteredId, enteredPwd) && PasswordAuthentication.attempts(4)) {
+                if (PasswordAuthentication.password(enteredId, enteredPwd)) {
                     new Internal(idTextField.getText());
                 } else {
                     new LoginFailed();
