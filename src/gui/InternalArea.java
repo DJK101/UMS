@@ -57,6 +57,7 @@ public class InternalArea implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setLocationRelativeTo(null);
+        frame.getRootPane().setDefaultButton(logoutButton);
         frame.setVisible(true);
     }
 
@@ -64,7 +65,7 @@ public class InternalArea implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == logoutButton) {
             //Returns to Login Page
-            new LoginGUI();
+            new ExternalArea();
             frame.dispose();
         }
     }

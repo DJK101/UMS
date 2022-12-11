@@ -23,7 +23,7 @@ public class PremadeUsers {
     private static final President testPresident = new President(
             "1",
             "pwd",
-            "President Name",
+            "\"President Name\"",
             "President Email",
             "President Department",
             testSchedule);
@@ -32,7 +32,7 @@ public class PremadeUsers {
     private static final Lecturer testLecturer = new Lecturer(
             "2",
             "pwd",
-            "Lecturer Name",
+            "\"Lecturer Name\"",
             "Lecturer Email",
             "Lecturer Department",
             "Lecturer Office Location",
@@ -42,7 +42,7 @@ public class PremadeUsers {
     private static final TA testTA = new TA(
             "3",
             "pwd",
-            "TA Name",
+            "\"TA Name\"",
             "TA Email",
             "TA Department",
             "TA Enrolled As",
@@ -52,7 +52,7 @@ public class PremadeUsers {
     private static final Student testStudent = new Student(
             "4",
             "pwd",
-            "Student Name",
+            "\"Student Name\"",
             "Student Email",
             "Student Department",
             testSchedule,
