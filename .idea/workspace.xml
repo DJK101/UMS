@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Main styling for internal area completed. Placeholder text is there for now">
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Internal area has all the labels">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Internal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Internal.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Internal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Internal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670757047437</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Internal area has all the labels">
+      <created>1670761678117</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670761678117</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +272,7 @@
     <MESSAGE value="fixed button in external gui so it says &quot;login&quot;" />
     <MESSAGE value="Internal shows the person's name and has a functioning logout button (somewhat styled)" />
     <MESSAGE value="Main styling for internal area completed. Placeholder text is there for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main styling for internal area completed. Placeholder text is there for now" />
+    <MESSAGE value="Internal area has all the labels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Internal area has all the labels" />
   </component>
 </project>
