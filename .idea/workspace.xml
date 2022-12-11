@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Cleaned up ExternalArea code for submitting details">
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Button disabled and greyed out after 4 failed attempts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/data/PasswordAuthentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/data/PasswordAuthentication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670791472991</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Prevents login after 4 failed attempts">
+      <created>1670792364461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670792364461</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Button disabled and greyed out after 4 failed attempts">
+      <created>1670792493545</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670792493545</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +310,8 @@
     <MESSAGE value="Main styling for internal area completed. Placeholder text is there for now" />
     <MESSAGE value="Internal area has all the labels" />
     <MESSAGE value="Cleaned up ExternalArea code for submitting details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up ExternalArea code for submitting details" />
+    <MESSAGE value="Prevents login after 4 failed attempts" />
+    <MESSAGE value="Button disabled and greyed out after 4 failed attempts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button disabled and greyed out after 4 failed attempts" />
   </component>
 </project>
