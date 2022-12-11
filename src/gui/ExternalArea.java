@@ -28,7 +28,7 @@ public class ExternalArea extends JFrame implements ActionListener {
 
         //Create and set up the window
         frame = new JFrame("Noodle - Login");
-        setTitle("Noodle - Login "+ PasswordAuthentication.getCount());
+        setTitle("Noodle - Login");
         setIconImage(icon.getImage());
         setContentPane(externalAreaBg);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
