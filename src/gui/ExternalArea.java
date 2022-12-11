@@ -54,11 +54,18 @@ public class ExternalArea extends JFrame implements ActionListener {
     @Override
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == btnLogin) {
-                if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
+
+                //Gets the entered details
+                String enteredId = idTextField.getText();
+                String enteredPwd = String.valueOf(pwdTextField.getPassword());
+
+                //Checks if the entered details are valid
+                if (PasswordAuthentication.password(enteredId, enteredPwd)) {
                     new Internal(idTextField.getText());
                 } else {
                     new LoginFailed();
                 }
+
                 dispose();
             }
         }
