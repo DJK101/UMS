@@ -74,6 +74,9 @@ public class Internal extends JFrame implements ActionListener {
         //button styling
         logOutBtn.addActionListener(this);
 
+        //Allows use of enter button to logout
+        getRootPane().setDefaultButton(logOutBtn);
+
         logOutBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 logOutBtn.setBackground(new Color(158, 85, 11));

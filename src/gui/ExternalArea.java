@@ -38,6 +38,9 @@ public class ExternalArea extends JFrame implements ActionListener {
         //button styling
         btnLogin.addActionListener(this);
 
+        //Allows use of enter button to submit
+        getRootPane().setDefaultButton(btnLogin);
+
         btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 btnLogin.setBackground(new Color(158, 85, 11));
@@ -52,12 +55,11 @@ public class ExternalArea extends JFrame implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == btnLogin) {
                 if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
-                    new InternalArea(idTextField.getText());
-                    frame.dispose();
+                    new Internal(idTextField.getText());
                 } else {
                     new LoginFailed();
-                    frame.dispose();
                 }
+                dispose();
             }
         }
     }
