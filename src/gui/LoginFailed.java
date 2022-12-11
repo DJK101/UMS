@@ -25,8 +25,6 @@ public class LoginFailed extends JFrame implements ActionListener {
         //Button action listener
         tryAgainButton.addActionListener(this);
 
-
-
         //Create and set up the window
         setTitle("Noodle- Failed Login");
         setIconImage(icon.getImage());

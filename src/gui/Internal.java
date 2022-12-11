@@ -56,6 +56,7 @@ public class Internal extends JFrame implements ActionListener {
 
 
         //Welcomes the specific user to the Internal Area
+        assert currentUser != null;
         welcomeLbl.setText("Welcome " + currentUser.getName() + "!");
 
         //Personal info
@@ -78,7 +79,7 @@ public class Internal extends JFrame implements ActionListener {
         //button styling
         logOutBtn.addActionListener(this);
 
-        //Allows use of enter button to logout
+        //Allows use of enter button to log out
         getRootPane().setDefaultButton(logOutBtn);
 
         logOutBtn.addMouseListener(new java.awt.event.MouseAdapter() {

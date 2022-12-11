@@ -13,6 +13,7 @@ public class PasswordAuthentication {
                 index = i;
                 break;
             } else if (i >= PremadeUsers.getIds().length - 1){
+                count ++;
                 return false;
             }
         }
