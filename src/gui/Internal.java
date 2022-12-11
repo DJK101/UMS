@@ -67,10 +67,13 @@ public class Internal extends JFrame implements ActionListener {
         //Department info
         departmentLbl.setText(currentUser.getDepartment());
 
-        /*
-        this returns a boolean value, it needs a string value to be visible tho
-        availavilityLbl.setText(currentUser.isAvailable());
-        */
+//        this returns a boolean value, it needs a string value to be visible tho
+        String available = "Unavailable";
+
+        if (currentUser.isAvailable()) {
+            available = "Available";
+        }
+        availavilityLbl.setText(available);
 
         //button styling
         logOutBtn.addActionListener(this);

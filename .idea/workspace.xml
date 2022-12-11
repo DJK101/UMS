@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Button disabled and greyed out after 4 failed attempts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/data/PasswordAuthentication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/data/PasswordAuthentication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="cleaned up EntryPoint">
+      <change beforePath="$PROJECT_DIR$/src/gui/Internal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Internal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +260,42 @@
       <option name="project" value="LOCAL" />
       <updated>1670792493545</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixed bug that allowed login without user ID">
+      <created>1670792924455</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670792924455</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed bug that stopped failed login from showing on some occasions">
+      <created>1670793060728</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670793060728</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added some redundancy to PasswordAuthentication with &gt;= instead of ==">
+      <created>1670793108007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670793108007</updated>
+    </task>
+    <task id="LOCAL-00022" summary="getUser returns null if no user is found (redundancy)">
+      <created>1670793171249</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670793171249</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cleaned up EntryPoint">
+      <created>1670793218312</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670793218312</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +345,11 @@
     <MESSAGE value="Cleaned up ExternalArea code for submitting details" />
     <MESSAGE value="Prevents login after 4 failed attempts" />
     <MESSAGE value="Button disabled and greyed out after 4 failed attempts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button disabled and greyed out after 4 failed attempts" />
+    <MESSAGE value="Fixed bug that allowed login without user ID" />
+    <MESSAGE value="Fixed bug that stopped failed login from showing on some occasions" />
+    <MESSAGE value="Added some redundancy to PasswordAuthentication with &gt;= instead of ==" />
+    <MESSAGE value="getUser returns null if no user is found (redundancy)" />
+    <MESSAGE value="cleaned up EntryPoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up EntryPoint" />
   </component>
 </project>
