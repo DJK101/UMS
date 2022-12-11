@@ -12,8 +12,22 @@ public class Internal extends JFrame implements ActionListener {
     private final JFrame frame;
     private JPanel internalBg;
     private JLabel noodleLogo;
-    private JLabel lblLogin;
-    private JButton btnLogOut;
+    private JLabel welcomeLbl;
+    private JButton logOutBtn;
+    private JLabel userIDLbl;
+    private JLabel fullNameLbl;
+    private JLabel emailLbl;
+    private JLabel departmentLbl;
+    private JLabel timetableLbl;
+    private JLabel availavilityLbl;
+    private JLabel courseBoldLbl;
+    private JLabel courseLbl;
+    private JLabel officeLocationBoldLbl;
+    private JLabel officeLocationLbl;
+    private JLabel modulesBoldLbl;
+    private JLabel ModulesLbl;
+    private JLabel enrolledAsLbl;
+    private JLabel enrolledAsBoldLbl;
 
     public Internal(String userID) {
 
@@ -42,24 +56,37 @@ public class Internal extends JFrame implements ActionListener {
 
 
         //Welcomes the specific user to the Internal Area
-        lblLogin.setText("Welcome " + currentUser.getName() + "!");
+        welcomeLbl.setText("Welcome " + currentUser.getName() + "!");
+
+        //Personal info
+        userIDLbl.setText(currentUser.getId());
+        fullNameLbl.setText(currentUser.getName());
+        emailLbl.setText(currentUser.getEmail());
+
+        //Department info
+        departmentLbl.setText(currentUser.getDepartment());
+
+        /*
+        this returns a boolean value, it needs a string value to be visible tho
+        availavilityLbl.setText(currentUser.isAvailable());
+        */
 
         //button styling
-        btnLogOut.addActionListener(this);
+        logOutBtn.addActionListener(this);
 
-        btnLogOut.addMouseListener(new java.awt.event.MouseAdapter() {
+        logOutBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btnLogOut.setBackground(new Color(158, 85, 11));
+                logOutBtn.setBackground(new Color(158, 85, 11));
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                btnLogOut.setBackground( new Color(185,119, 39));
+                logOutBtn.setBackground( new Color(185,119, 39));
             }
         });
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == btnLogOut) {
+        if (e.getSource() == logOutBtn) {
                 new ExternalArea();
                 frame.dispose();
             }

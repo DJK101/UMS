@@ -8,6 +8,6 @@ public class EntryPoint {
 //        new LoginFailed();
         //new ExternalArea();
         //new InternalArea("1");
-        new Internal("3");
+        new Internal("2");
     }
 }

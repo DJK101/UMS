@@ -3,7 +3,7 @@
   <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="305" y="20" width="1093" height="761"/>
+      <xy x="426" y="20" width="1070" height="761"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -57,7 +57,7 @@
                   <verticalAlignment value="0"/>
                 </properties>
               </component>
-              <component id="8ef61" class="javax.swing.JButton" binding="btnLogOut">
+              <component id="8ef61" class="javax.swing.JButton" binding="logOutBtn">
                 <constraints>
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
                     <minimum-size width="-1" height="50"/>
@@ -84,7 +84,7 @@
               </hspacer>
             </children>
           </grid>
-          <grid id="7e217" layout-manager="GridLayoutManager" row-count="13" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <grid id="7e217" layout-manager="GridLayoutManager" row-count="15" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="80" left="90" bottom="90" right="80"/>
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="1" use-parent-layout="true">
@@ -111,7 +111,7 @@
                   <text value="Personal info"/>
                 </properties>
               </component>
-              <component id="61a4f" class="javax.swing.JLabel" binding="lblLogin">
+              <component id="61a4f" class="javax.swing.JLabel" binding="welcomeLbl">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
@@ -131,14 +131,14 @@
                   <text value="User ID:"/>
                 </properties>
               </component>
-              <component id="73e7b" class="javax.swing.JLabel">
+              <component id="73e7b" class="javax.swing.JLabel" binding="userIDLbl">
                 <constraints>
                   <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <font name="Microsoft YaHei" size="18" style="0"/>
                   <foreground color="-16645630"/>
-                  <text value="4245246"/>
+                  <text value=""/>
                 </properties>
               </component>
               <component id="ff47e" class="javax.swing.JLabel">
@@ -161,54 +161,24 @@
                   <text value="Email:"/>
                 </properties>
               </component>
-              <component id="391cb" class="javax.swing.JLabel">
+              <component id="391cb" class="javax.swing.JLabel" binding="fullNameLbl">
                 <constraints>
                   <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <font name="Microsoft YaHei" size="18" style="0"/>
                   <foreground color="-16645630"/>
-                  <text value="Mary Jane Smith"/>
+                  <text value=""/>
                 </properties>
               </component>
-              <component id="7419d" class="javax.swing.JLabel">
+              <component id="7419d" class="javax.swing.JLabel" binding="emailLbl">
                 <constraints>
                   <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <font name="Microsoft YaHei" size="18" style="0"/>
                   <foreground color="-16645630"/>
-                  <text value="maryjanesmith@gmail.com"/>
-                </properties>
-              </component>
-              <component id="f95cf" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Century Gothic" size="24" style="1"/>
-                  <foreground color="-15198184"/>
-                  <text value="Course info"/>
-                </properties>
-              </component>
-              <component id="acb73" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Microsoft YaHei" size="18" style="1"/>
-                  <foreground color="-16645630"/>
-                  <text value="Enrolled in:"/>
-                </properties>
-              </component>
-              <component id="39a0a" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="10" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Microsoft YaHei" size="18" style="0"/>
-                  <foreground color="-16645630"/>
-                  <text value="Immersive Software Engineering"/>
+                  <text value=""/>
                 </properties>
               </component>
               <component id="abd6b" class="javax.swing.JLabel">
@@ -221,43 +191,16 @@
                   <text value="Department:"/>
                 </properties>
               </component>
-              <component id="a59a3" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Microsoft YaHei" size="18" style="1"/>
-                  <foreground color="-16645630"/>
-                  <text value="Availability:"/>
-                </properties>
-              </component>
-              <component id="f87e7" class="javax.swing.JLabel">
+              <component id="f87e7" class="javax.swing.JLabel" binding="departmentLbl">
                 <constraints>
                   <grid row="11" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <font name="Microsoft YaHei" size="18" style="0"/>
                   <foreground color="-16645630"/>
-                  <text value="Science and Engineering"/>
+                  <text value=""/>
                 </properties>
               </component>
-              <component id="f0d6d" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="12" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <font name="Microsoft YaHei" size="18" style="0"/>
-                  <foreground color="-16645630"/>
-                  <text value="Available now"/>
-                </properties>
-              </component>
-              <vspacer id="5b0a5">
-                <constraints>
-                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
-                    <preferred-size width="-1" height="40"/>
-                  </grid>
-                </constraints>
-              </vspacer>
               <vspacer id="e8003">
                 <constraints>
                   <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
@@ -272,18 +215,156 @@
                   </grid>
                 </constraints>
               </vspacer>
-              <vspacer id="d0409">
-                <constraints>
-                  <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
-                    <preferred-size width="-1" height="12"/>
-                  </grid>
-                </constraints>
-              </vspacer>
               <hspacer id="296ba">
                 <constraints>
                   <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
               </hspacer>
+              <component id="ce30c" class="javax.swing.JLabel" binding="timetableLbl">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Century Gothic" size="24" style="1"/>
+                  <foreground color="-15198184"/>
+                  <text value="Timetable"/>
+                </properties>
+              </component>
+              <hspacer id="78798">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="290" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <component id="f6482" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Century Gothic" size="24" style="1"/>
+                  <foreground color="-15198184"/>
+                  <text value="Department info"/>
+                </properties>
+              </component>
+              <vspacer id="63b12">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="12"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="73857">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="60"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <component id="b6438" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="1"/>
+                  <foreground color="-16645630"/>
+                  <text value="Availability:"/>
+                </properties>
+              </component>
+              <component id="df567" class="javax.swing.JLabel" binding="availavilityLbl">
+                <constraints>
+                  <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="0"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6a223" class="javax.swing.JLabel" binding="courseBoldLbl">
+                <constraints>
+                  <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="0" height="0"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="1"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="34326" class="javax.swing.JLabel" binding="courseLbl">
+                <constraints>
+                  <grid row="13" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="0"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="34d9f" class="javax.swing.JLabel" binding="officeLocationBoldLbl">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="1"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6ff40" class="javax.swing.JLabel" binding="officeLocationLbl">
+                <constraints>
+                  <grid row="12" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="0"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="386c6" class="javax.swing.JLabel" binding="modulesBoldLbl">
+                <constraints>
+                  <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="0" height="0"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="1"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="47137" class="javax.swing.JLabel" binding="ModulesLbl">
+                <constraints>
+                  <grid row="14" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="0"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="67730" class="javax.swing.JLabel" binding="enrolledAsBoldLbl">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="1"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="ffe05" class="javax.swing.JLabel" binding="enrolledAsLbl">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft YaHei" size="18" style="1"/>
+                  <foreground color="-16645630"/>
+                  <text value=""/>
+                </properties>
+              </component>
             </children>
           </grid>
         </children>
