@@ -13,7 +13,8 @@ public class InternalArea implements ActionListener {
     final JButton logoutButton;
     final JFrame frame;
 
-    InternalArea(String userID) {
+
+    public InternalArea(String userID) {
 
         //Loads the logged-in user to access their info
         Person currentUser = PremadeUsers.getUser(userID);

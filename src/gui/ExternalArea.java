@@ -9,12 +9,13 @@ import java.awt.event.ActionListener;
 
 public class ExternalArea extends JFrame implements ActionListener {
 
+    private final JFrame frame;
     private JPanel externalAreaBg;
     private JLabel noodleLogo;
     private JLabel lblLogin;
-    private JTextField textField1;
-    private JPasswordField passwordField1;
-    private JButton submitButton;
+    private JTextField idTextField;
+    private JPasswordField pwdTextField;
+    private JButton btnLogin;
 
     public ExternalArea() {
 
@@ -25,25 +26,39 @@ public class ExternalArea extends JFrame implements ActionListener {
         icon = new ImageIcon(new_img);
         noodleLogo.setIcon(icon);
 
-        submitButton.addActionListener(this);
-
         //Create and set up the window
+        frame = new JFrame("Noodle - Login");
         setTitle("Noodle - Login");
         setIconImage(icon.getImage());
         setContentPane(externalAreaBg);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        getRootPane().setDefaultButton(submitButton);
         setVisible(true);
+
+        //button styling
+        btnLogin.addActionListener(this);
+
+        btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                btnLogin.setBackground(new Color(158, 85, 11));
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnLogin.setBackground( new Color(185,119, 39));
+            }
+        });
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == submitButton && PasswordAuthentication.password(textField1.getText(), passwordField1.getText())) {
-            new InternalArea(textField1.getText());
-        } else {
-            new LoginFailed();
+        public void actionPerformed(ActionEvent e) {
+            if (e.getSource() == btnLogin) {
+                if (PasswordAuthentication.password(idTextField.getText(), pwdTextField.getText())) {
+                    new InternalArea(idTextField.getText());
+                    frame.dispose();
+                } else {
+                    new LoginFailed();
+                    frame.dispose();
+                }
+            }
         }
-        dispose();
     }
-}
+

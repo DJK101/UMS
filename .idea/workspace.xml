@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Can use enter to submit in ExternalArea">
-      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.form" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Internal area has all the labels">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +22,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="GUI" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,13 +29,6 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
-    </option>
-  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -128,7 +118,8 @@
       <updated>1670440478083</updated>
       <workItem from="1670440485685" duration="1498000" />
       <workItem from="1670513306448" duration="324000" />
-      <workItem from="1670513649718" duration="17682000" />
+      <workItem from="1670513649718" duration="21544000" />
+      <workItem from="1670678660700" duration="12559000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1670512706104</created>
@@ -165,28 +156,77 @@
       <option name="project" value="LOCAL" />
       <updated>1670601981066</updated>
     </task>
-    <task id="LOCAL-00006" summary="Added login functionality to ExternalArea">
-      <created>1670715927363</created>
+    <task id="LOCAL-00006" summary="shit balls">
+      <created>1670602609014</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1670715927363</updated>
+      <updated>1670602609014</updated>
     </task>
-    <task id="LOCAL-00007" summary="LoginFailed now points to new ExternalArea">
-      <created>1670715980607</created>
+    <task id="LOCAL-00007" summary="made a base for the external gui, and made a slight colour change">
+      <created>1670676607213</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1670715980607</updated>
+      <updated>1670676607213</updated>
     </task>
-    <task id="LOCAL-00008" summary="Can use enter to submit in ExternalArea">
-      <created>1670716042602</created>
+    <task id="LOCAL-00008" summary="all required components are in the external area">
+      <created>1670678387161</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1670716042602</updated>
+      <updated>1670678387161</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="made external gui more responsive">
+      <created>1670678528619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670678528619</updated>
+    </task>
+    <task id="LOCAL-00010" summary="external gui looks good, fixed forms, fonts, button">
+      <created>1670684882076</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670684882076</updated>
+    </task>
+    <task id="LOCAL-00011" summary="external gui slays the house down 💅💅💅">
+      <created>1670685933609</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670685933609</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed button in external gui so it says &quot;login&quot;">
+      <created>1670686301178</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670686301178</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Internal shows the person's name and has a functioning logout button (somewhat styled)">
+      <created>1670749682676</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670749682676</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Main styling for internal area completed. Placeholder text is there for now">
+      <created>1670757047437</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670757047437</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Internal area has all the labels">
+      <created>1670761678117</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1670761678117</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,9 +263,16 @@
     <MESSAGE value="noodle logo right size" />
     <MESSAGE value="fixed the failed login main panel bg colour" />
     <MESSAGE value="made a background for external area" />
-    <MESSAGE value="Added login functionality to ExternalArea" />
-    <MESSAGE value="LoginFailed now points to new ExternalArea" />
-    <MESSAGE value="Can use enter to submit in ExternalArea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can use enter to submit in ExternalArea" />
+    <MESSAGE value="shit balls" />
+    <MESSAGE value="made a base for the external gui, and made a slight colour change" />
+    <MESSAGE value="all required components are in the external area" />
+    <MESSAGE value="made external gui more responsive" />
+    <MESSAGE value="external gui looks good, fixed forms, fonts, button" />
+    <MESSAGE value="external gui slays the house down " />
+    <MESSAGE value="fixed button in external gui so it says &quot;login&quot;" />
+    <MESSAGE value="Internal shows the person's name and has a functioning logout button (somewhat styled)" />
+    <MESSAGE value="Main styling for internal area completed. Placeholder text is there for now" />
+    <MESSAGE value="Internal area has all the labels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Internal area has all the labels" />
   </component>
 </project>
