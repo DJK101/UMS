@@ -12,13 +12,12 @@ public class PasswordAuthentication {
             if (PremadeUsers.getIds()[i].equals(enteredUserID)) {
                 index = i;
                 break;
-            } else {
+            } else if (i == PremadeUsers.getIds().length - 1){
                 return false;
             }
         }
         //Will return true iff id and password match
         if (PremadeUsers.getPwds()[index].equals(enteredPassword)) {
-            System.out.println(index);
             return true;
         } else {
             count ++;
