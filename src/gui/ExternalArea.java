@@ -41,49 +41,58 @@ public class ExternalArea extends JFrame implements ActionListener {
         //Allows use of enter button to submit
         getRootPane().setDefaultButton(btnLogin);
 
-        btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                btnLogin.setBackground(new Color(158, 85, 11));
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                btnLogin.setBackground( new Color(185,119, 39));
-            }
-        });
-
-        final int maxAttempts = 4;
+        int maxAttempts = 4;
         int attempts = PasswordAuthentication.getCount();
+
+        //Submit button highlighting when within attempt range
+        if (PasswordAuthentication.attempts(maxAttempts)) {
+            btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
+
+                public void mouseEntered(java.awt.event.MouseEvent evt) {
+                    btnLogin.setBackground(new Color(158, 85, 11));
+                }
+
+                public void mouseExited(java.awt.event.MouseEvent evt) {
+                    btnLogin.setBackground(new Color(185, 119, 39));
+                }
+            });
+
+        } else {
+            //Disables button if max attempts is exceeded
+            idTextField.setEnabled(false);
+            pwdTextField.setEnabled(false);
+            idTextField.setBackground(new Color(0xD7D7D7));
+            pwdTextField.setBackground(new Color(0xD7D7D7));
+            lblLogin.setText("Too Many Failed Attempts (" + attempts + "/" + maxAttempts + ")");
+            lblLogin.setForeground(new Color(0x8B0001));
+            btnLogin.setEnabled(false);
+            btnLogin.setBackground(new Color(158, 85, 11));
+        }
 
         //Displays number of Failed Attempts
         if (attempts > 0) {
             lblLogin.setText("Login (Failed Attempts " + attempts + "/" + maxAttempts + ")");
         }
 
-        //Disables button if max attempts is exceeded
-        if (!PasswordAuthentication.attempts(maxAttempts)) {
-            lblLogin.setText("Too Many Failed Attempts (" + attempts + "/" + maxAttempts + ")");
-            lblLogin.setForeground(new Color(0x8B0001));
-            btnLogin.setEnabled(false);
-            btnLogin.setBackground(new Color(158, 85, 11));
-        }
     }
 
     @Override
-        public void actionPerformed(ActionEvent e) {
-            if (e.getSource() == btnLogin) {
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btnLogin) {
 
-                //Gets the entered details
-                String enteredId = idTextField.getText();
-                String enteredPwd = String.valueOf(pwdTextField.getPassword());
+            //Gets the entered details
+            String enteredId = idTextField.getText();
+            String enteredPwd = String.valueOf(pwdTextField.getPassword());
 
-                //Checks if the entered details are valid
-                if (PasswordAuthentication.password(enteredId, enteredPwd)) {
-                    new Internal(idTextField.getText());
-                } else {
-                    new LoginFailed();
-                }
-
-                dispose();
+            //Checks if the entered details are valid
+            if (PasswordAuthentication.password(enteredId, enteredPwd)) {
+                new Internal(idTextField.getText());
+            } else {
+                new LoginFailed();
             }
+
+            dispose();
         }
     }
+}
 
