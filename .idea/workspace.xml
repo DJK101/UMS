@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Available now works in Internal">
-      <change beforePath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/PasswordAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Internal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Internal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/LoginFailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/LoginFailed.java" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Corrected Failed Login Title">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/ExternalArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ExternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ExternalArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
@@ -304,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670793417752</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fixed issue with blank details not incrementing failed attempts">
+      <created>1670793801370</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670793801370</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Corrected Failed Login Title">
+      <created>1670793944372</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670793944372</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,19 +331,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/GUI" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -335,8 +339,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Refactored project structure" />
-    <MESSAGE value="test" />
     <MESSAGE value="progress with noodle logo, centered and correct label size" />
     <MESSAGE value="noodle logo right size" />
     <MESSAGE value="fixed the failed login main panel bg colour" />
@@ -360,6 +362,8 @@
     <MESSAGE value="getUser returns null if no user is found (redundancy)" />
     <MESSAGE value="cleaned up EntryPoint" />
     <MESSAGE value="Available now works in Internal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Available now works in Internal" />
+    <MESSAGE value="Fixed issue with blank details not incrementing failed attempts" />
+    <MESSAGE value="Corrected Failed Login Title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected Failed Login Title" />
   </component>
 </project>

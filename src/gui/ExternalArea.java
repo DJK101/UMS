@@ -50,7 +50,18 @@ public class ExternalArea extends JFrame implements ActionListener {
             }
         });
 
-        if (!PasswordAuthentication.attempts(4)) {
+        final int maxAttempts = 4;
+        int attempts = PasswordAuthentication.getCount();
+
+        //Displays number of Failed Attempts
+        if (attempts > 0) {
+            lblLogin.setText("Login (Failed Attempts " + attempts + "/" + maxAttempts + ")");
+        }
+
+        //Disables button if max attempts is exceeded
+        if (!PasswordAuthentication.attempts(maxAttempts)) {
+            lblLogin.setText("Too Many Failed Attempts (" + attempts + "/" + maxAttempts + ")");
+            lblLogin.setForeground(new Color(0x8B0001));
             btnLogin.setEnabled(false);
             btnLogin.setBackground(new Color(158, 85, 11));
         }
