@@ -91,7 +91,7 @@ public class Internal extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == logOutBtn) {
                 new ExternalArea();
-                frame.dispose();
+                dispose();
             }
         }
     }
