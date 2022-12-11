@@ -15,6 +15,25 @@ public class PasswordAuthentication {
             }
         }
         //Will return true iff id and password match
-        return PremadeUsers.getPwds()[index].equals(enteredPassword);
+        if (PremadeUsers.getPwds()[index].equals(enteredPassword)) {
+            return true;
+        } else {
+            count ++;
+            return false;
+        }
+    }
+
+    private static int count = 0;
+
+    public static void setCount(int count) {
+        PasswordAuthentication.count = count;
+    }
+
+    public static int getCount() {
+        return PasswordAuthentication.count;
+    }
+
+    public static boolean attempts(int maxAttempts) {
+        return count < maxAttempts;
     }
 }

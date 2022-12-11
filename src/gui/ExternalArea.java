@@ -28,7 +28,7 @@ public class ExternalArea extends JFrame implements ActionListener {
 
         //Create and set up the window
         frame = new JFrame("Noodle - Login");
-        setTitle("Noodle - Login");
+        setTitle("Noodle - Login "+ PasswordAuthentication.getCount());
         setIconImage(icon.getImage());
         setContentPane(externalAreaBg);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -60,7 +60,7 @@ public class ExternalArea extends JFrame implements ActionListener {
                 String enteredPwd = String.valueOf(pwdTextField.getPassword());
 
                 //Checks if the entered details are valid
-                if (PasswordAuthentication.password(enteredId, enteredPwd)) {
+                if (PasswordAuthentication.password(enteredId, enteredPwd) && PasswordAuthentication.attempts(4)) {
                     new Internal(idTextField.getText());
                 } else {
                     new LoginFailed();
