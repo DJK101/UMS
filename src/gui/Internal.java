@@ -63,6 +63,7 @@ public class Internal extends JFrame implements ActionListener {
         fullNameLbl.setText(currentUser.getName());
         emailLbl.setText(currentUser.getEmail());
 
+
         //Department info
         departmentLbl.setText(currentUser.getDepartment());
 
