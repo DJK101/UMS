@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="fixed button in external gui so it says &quot;login&quot;">
-      <change afterPath="$PROJECT_DIR$/src/gui/Internal.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gui/Internal.java" afterDir="false" />
+    <list default="true" id="af5c2128-1fc9-427b-a276-ff51a9ccb37f" name="Changes" comment="Internal shows the person's name and has a functioning logout button (somewhat styled)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/InternalArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/gui/LoginFailed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UMS/main/EntryPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/InternalArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/InternalArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/Internal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Internal.form" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670686301178</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Internal shows the person's name and has a functioning logout button (somewhat styled)">
+      <created>1670749682676</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670749682676</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +255,7 @@
     <MESSAGE value="external gui looks good, fixed forms, fonts, button" />
     <MESSAGE value="external gui slays the house down " />
     <MESSAGE value="fixed button in external gui so it says &quot;login&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed button in external gui so it says &quot;login&quot;" />
+    <MESSAGE value="Internal shows the person's name and has a functioning logout button (somewhat styled)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Internal shows the person's name and has a functioning logout button (somewhat styled)" />
   </component>
 </project>
