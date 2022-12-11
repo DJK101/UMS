@@ -59,7 +59,7 @@ public class PremadeUsers {
             "Student Course",
             testModules);
 
-    //Array of premade users
+    //Array of pre-made users
     private static final Person[] people = {testPresident, testLecturer, testTA, testStudent};
 
     //Method for accessing individual users based off their id
@@ -69,7 +69,7 @@ public class PremadeUsers {
                 return i;
             }
         }
-        return testLecturer;
+        return null;
     }
 
     //Method for accessing all ids within the system, for data.PasswordAuthentication

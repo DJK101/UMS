@@ -56,6 +56,7 @@ public class Internal extends JFrame implements ActionListener {
 
 
         //Welcomes the specific user to the Internal Area
+        assert currentUser != null;
         welcomeLbl.setText("Welcome " + currentUser.getName() + "!");
 
         //Personal info
@@ -67,15 +68,18 @@ public class Internal extends JFrame implements ActionListener {
         //Department info
         departmentLbl.setText(currentUser.getDepartment());
 
-        /*
-        this returns a boolean value, it needs a string value to be visible tho
-        availavilityLbl.setText(currentUser.isAvailable());
-        */
+//        this returns a boolean value, it needs a string value to be visible tho
+        String available = "Unavailable";
+
+        if (currentUser.isAvailable()) {
+            available = "Available";
+        }
+        availavilityLbl.setText(available);
 
         //button styling
         logOutBtn.addActionListener(this);
 
-        //Allows use of enter button to logout
+        //Allows use of enter button to log out
         getRootPane().setDefaultButton(logOutBtn);
 
         logOutBtn.addMouseListener(new java.awt.event.MouseAdapter() {
